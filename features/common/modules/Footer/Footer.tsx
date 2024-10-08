@@ -62,7 +62,7 @@ const Footer = () => {
         <Box display='flex' gap="2" alignItems='center'>
           <HiHomeModern />
           <Text fontSize="lg" fontWeight="black">
-            CASAZ
+          ARMADA APARTMENT HOMES
           </Text>
         </Box>
         <Text marginTop="1rem" fontSize="xs" textAlign="center">
