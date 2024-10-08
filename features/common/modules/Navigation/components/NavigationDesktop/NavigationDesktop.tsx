@@ -19,7 +19,7 @@ const NavigationDesktop = () => {
             <Box display="flex" gap="2" alignItems="center">
               <HiHomeModern size="30" />
               <Text fontSize="2xl" fontWeight="black">
-                CASAZ{' '}
+                ARMADA APARTMENT HOMES{' '}
               </Text>
             </Box>
           </Link>
@@ -38,7 +38,7 @@ const NavigationDesktop = () => {
               fontSize="0.8rem"
               fontWeight="medium"
             >
-              CREATE LISTING
+              PARTNER WITH US 
             </Button>
           </Flex>
         </Flex>

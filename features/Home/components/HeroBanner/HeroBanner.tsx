@@ -43,19 +43,18 @@ const HeroBanner = () => {
               lineHeight="shorter"
               marginBottom="1.5rem"
             >
-              Download our new property <strong>Buying Guide </strong> today ...
+              Welcome to  <strong>Talani Development Group  </strong>Build Your Future Today ...
             </Text>
             <Text fontSize={{ base: 'lg', sm: '2xl' }}>
-              A free PDF out best secrets for evaluating a property, calculating
-              profit and so much more.
+            Future Living Starts Here: Join Us in Building Your Dream Apartment!
             </Text>
           </Box>
-          <Box
+          {/* <Box
             width={{ base: '100%', sm: 'auto' }}
             marginTop={{ base: '2rem', sm: '0' }}
           >
             <HeroForm />
-          </Box>
+          </Box> */}
         </Box>
       </Box>
     </Fade>
