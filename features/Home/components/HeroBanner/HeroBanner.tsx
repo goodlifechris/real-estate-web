@@ -37,7 +37,7 @@ const HeroBanner = () => {
           margin="0 auto"
           padding="2rem"
         >
-          <Box width={{ base: '100%', sm: '50%' }}>
+          <Box width={{ base: '100%', sm: '100%' }}>
             <Text
               fontSize={{ base: '4xl', sm: '5xl' }}
               lineHeight="shorter"
