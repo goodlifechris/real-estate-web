@@ -32,8 +32,7 @@ const NavigationMovbile = () => {
           </Box>
         </Link>
         <Menu>
-        // @ts-ignore
-<MenuButton as={IconButton} aria-label="Options" icon={<HamburgerIcon />} />
+        <MenuButton as={IconButton as any} aria-label="Options" icon={<HamburgerIcon />} />
 
           <MenuList>
             {navigationLinks.map((item) => (
