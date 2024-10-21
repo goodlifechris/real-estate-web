@@ -16,12 +16,6 @@ import { Testimonials } from '../Testimonials/Testimonials';
 
 const Property = () => {
 
-  const handleButtonClick = () => {
-    if (typeof window !== 'undefined') {
-      // Only open the link if `window` is available (i.e., on the client-side)
-      window.open('https://ardama.nyc3.cdn.digitaloceanspaces.com/plans/BK_Elevations3.pdf', '_blank');
-    }
-  };
   return (
     <>
        <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }}>
