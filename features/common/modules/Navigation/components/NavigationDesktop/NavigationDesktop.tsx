@@ -3,25 +3,30 @@ import Link from 'next/link';
 import { Box, Button, Flex, Text } from '@chakra-ui/react';
 import { HiHomeModern } from 'react-icons/hi2';
 import { navigationLinks } from '@/features/common/modules/Navigation/NavigationConsts';
+import { Image } from '@chakra-ui/react'
+import { Icon, createIcon } from '@chakra-ui/react'
+import path from 'path';
+import LogoPath from '../../../LogoPath';
 
 const NavigationDesktop = () => {
   return (
     <Box
-      color="blue.600"
+      color="purple.600"
       paddingY="2rem"
       paddingX="3rem"
-      backgroundColor="white"
+      backgroundColor="#feff00"
       display={{ base: 'none', md: 'block' }}
     >
       <Box maxWidth="1280px" margin="0 auto">
         <Flex alignItems="center" justifyContent="space-between">
           <Link href="/">
-            <Box display="flex" gap="2" alignItems="center">
-              <HiHomeModern size="30" />
+            {/* <Box display="flex" gap="2" alignItems="center"> */}
+              {/* <HiHomeModern size="30" />
               <Text fontSize="2xl" fontWeight="black">
                 ARMADA APARTMENT HOMES{' '}
-              </Text>
-            </Box>
+              </Text> */}
+                      <LogoPath w="600px" h="100px"/>
+                          {/* </Box> */}
           </Link>
           <Flex gap='12' alignItems='center' fontWeight='medium'>
             {navigationLinks.map((item) => (
@@ -32,14 +37,17 @@ const NavigationDesktop = () => {
                 icon={<item.icon />}
               />
             ))}
+              <Link href="/">
             <Button
+            backgroundColor='purple.700'
               padding="1.5rem"
               colorScheme="twitter"
               fontSize="0.8rem"
               fontWeight="medium"
             >
-              PARTNER WITH US 
+              RESERVE NOW
             </Button>
+            </Link>
           </Flex>
         </Flex>
       </Box>

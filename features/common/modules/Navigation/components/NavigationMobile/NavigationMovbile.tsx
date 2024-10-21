@@ -13,11 +13,12 @@ import {
 import { HiHomeModern } from 'react-icons/hi2';
 import { navigationLinks } from '@/features/common/modules/Navigation/NavigationConsts';
 import { HamburgerIcon } from '@chakra-ui/icons';
+import LogoPath from '../../../LogoPath';
 
 const NavigationMovbile = () => {
   return (
     <Box
-      color="blue.600"
+      color="purple.600"
       padding="2rem"
       backgroundColor="white"
       display={{ base: 'block', md: 'none' }}
@@ -25,10 +26,7 @@ const NavigationMovbile = () => {
       <Flex alignItems="center" justifyContent="space-between">
         <Link href="/">
           <Box display="flex" gap="2" alignItems="center">
-            <HiHomeModern size="30" />
-            <Text fontSize="2xl" fontWeight="black">
-              ARMADA APARTMENT HOMES
-            </Text>
+          <LogoPath w="100%" h="56px"/>
           </Box>
         </Link>
         <Menu>

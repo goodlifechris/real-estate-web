@@ -11,7 +11,7 @@ import {
 
 const Footer = () => {
   return (
-    <Box backgroundColor="blue.600">
+    <Box backgroundColor="purple.600">
       <Box
         maxWidth="1280px"
         margin="0 auto"
@@ -51,7 +51,7 @@ const Footer = () => {
         </SimpleGrid>
       </Box>
       <Box
-        backgroundColor="blue.900"
+        backgroundColor="purple.900"
         display="flex"
         padding="2rem"
         justifyContent="center"
@@ -66,7 +66,7 @@ const Footer = () => {
           </Text>
         </Box>
         <Text marginTop="1rem" fontSize="xs" textAlign="center">
-          All rights reserved - Copyright CASAZ
+          All rights reserved - Copyright talani
         </Text>
       </Box>
     </Box>

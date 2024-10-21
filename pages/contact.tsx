@@ -28,19 +28,9 @@ const Contact = () => {
           </GridItem>
           <GridItem colSpan={{ base: 6, md: 2 }}>
             <TextContentBox title="For Inquiries Contact:">
-              <Text
-                fontWeight="light"
-                color="gray.600"
-                fontSize="1rem"
-                marginBottom="1rem"
-              >
-                Linnet Cubin <br />
-                Public Relations Manager
-                <br />
-                774 NE 84th St Miami, FL 33879
-              </Text>
-              <Text fontWeight="light" color="gray.600" fontSize="1rem">
-                Abraham Lincoln <br />
+    
+              <Text fontWeight="bold" color="gray.600" fontSize="1rem">
+                Henya Batholomew <br />
                 Public Relations Manager
                 <br />
                 774 NE 84th St Miami, FL 33879
