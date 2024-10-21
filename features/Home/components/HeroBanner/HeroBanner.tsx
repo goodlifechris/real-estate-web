@@ -10,7 +10,6 @@ const HeroBanner = () => {
   const headingRef = useRef(null);
   const subheadingRef = useRef(null);
   const descriptionRef = useRef(null);
-
   useEffect(() => {
     // Video autoplay logic
 
