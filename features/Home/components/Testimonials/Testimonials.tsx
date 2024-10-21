@@ -3,7 +3,7 @@ import { testimonials } from '@/features/Home/components/Testimonials/testomonia
 import { Box, SimpleGrid, Text } from '@chakra-ui/react';
 import React from 'react';
 
-const Testimonials = () => {
+export const Testimonials = () => {
   return (
     <Box backgroundColor="blue.50">
       <Box

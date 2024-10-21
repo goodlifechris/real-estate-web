@@ -12,8 +12,10 @@ import {
 } from '@chakra-ui/react'
 import PDFViewer from './PDFVIewer'
 import Link from 'next/link';
+import { Testimonials } from '../Testimonials/Testimonials';
 
-export default function Property() {
+const Property = () => {
+
   const handleButtonClick = () => {
     if (typeof window !== 'undefined') {
       // Only open the link if `window` is available (i.e., on the client-side)
@@ -133,4 +135,6 @@ export default function Property() {
     </>
  
   )
-}
+};
+export default Property;
+
