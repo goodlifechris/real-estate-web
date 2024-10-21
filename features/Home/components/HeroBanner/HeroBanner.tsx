@@ -5,13 +5,15 @@ import { TextPlugin } from 'gsap/dist/TextPlugin';
 gsap.registerPlugin(TextPlugin); // Register the TextPlugin for typing effects
 
 const HeroBanner = () => {
-  const videoRef = useRef(null);
+  const videoRef = useRef<HTMLVideoElement | null>(null);
+
   const headingRef = useRef(null);
   const subheadingRef = useRef(null);
   const descriptionRef = useRef(null);
 
   useEffect(() => {
     // Video autoplay logic
+
     const video = videoRef.current;
     if (video) {
       video.muted = true;
